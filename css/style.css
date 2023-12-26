@@ -59,21 +59,43 @@ section {
     padding-bottom: 10vh;
     padding-left: 10vw;
     line-height: 2em;
+    font-size: 1.5em;
+    font-family: var(--fonte-mao);
+}
+
+section p {
+    padding-top: 2.5em;
 }
 
 section.normal {
     background-color: white;
     color: black;
+
 }
 
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
-section.imagem p{
+section.imagem p {
     background-color: rgba(0, 0, 0, 0.26);
-    width: 40%;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+section#bg-joaninha {
+    background-image: url(../imagens/background001.jpg);
+}
+
+section#bg-livro {
+    background-image: url(../imagens/background002.jpg);
 }
 
 footer {
