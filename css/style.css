@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+:root {
+    --fonte-Destaque: 'Luckiest Guy', cursive, sans-serif;
+    --fonte-mao: 'Sevillana', cursive, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 100svh;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 40px 0 10px 0;
+    font-size: 3em;
+    font-family: var(--fonte-Destaque);
+    text-shadow: 4px 3px 0px rgb(109, 107, 107);
+}
+
+header p {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-Destaque);
+    padding: 10px 0 40px 0;
+    text-shadow: 1px 1px 0px rgb(119, 119, 119);
+}
+
+header p a {
+    color: white;
+    text-decoration: none;
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+header p a:visited {
+    color: rgb(0, 0, 196);
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vw;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.26);
+    width: 40%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: var(--fonte-Destaque);
+    text-shadow: 1px 1px 1px rgb(124, 124, 124);
+}
